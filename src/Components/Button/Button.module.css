@@ -1,0 +1,21 @@
+.button{
+        display: inline-block;
+        padding: 10px 20px;
+        position: relative;
+        top: 0px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #91e48a;
+        background-color: #278ed7;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer; 
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-75%, -75%);
+    transform: translate(-50%, -50%);
+  }

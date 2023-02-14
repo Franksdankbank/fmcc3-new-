@@ -1,13 +1,19 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+import React from 'react';
+import Button from "@/Components/Button/Button";
+import styles from './page.module.css';
+const page: React.FC = () => {
+  const handleClick = () => {
+    console.log('Button clicked');
+  };
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
   return (
-    <main >
-      hello this is the main page
-    </main>
-  )
-}
+    <div className={styles.center}>
+      <h1> Welcome to 113 North Village Road</h1>
+
+      <Button label="Meet the Property Manager" href ="/about"/>
+    </div>
+
+  );
+};
+
+export default page;
