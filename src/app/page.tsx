@@ -7,12 +7,13 @@ const page: React.FC = () => {
   };
 
   return (
+    <div >
     <div className={styles.center}>
       <h1> Welcome to 113 North Village Road</h1>
 
       <Button label="Meet the Property Manager" href ="/about"/>
     </div>
-
+  </div>
   );
 };
 
