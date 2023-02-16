@@ -13,6 +13,7 @@ const page: React.FC = () => {
 
       <Button label="Meet the Property Manager" href ="/about"/>
     </div>
+    
   </div>
   );
 };
