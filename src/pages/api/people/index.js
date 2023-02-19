@@ -1,9 +1,10 @@
-import { getPeople } from '@lib/mongo/index'
+import MyClass from '@lib/mongo/people'
+const myClassInstance = new MyClass();
 
 const handler = async (req, res) => {
     if(req.method === 'GET'){
         try {
-            const { people, error } = await getPeople()
+            const { people, error } = await myClassInstance.getPeople()
             if (error) throw new Error(error)
 
             return res.status(200).json({ people })

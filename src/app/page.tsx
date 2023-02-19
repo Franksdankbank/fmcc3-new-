@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from "@/Components/Button/Button";
 import styles from './page.module.css';
-import updatePeople from '@lib/mongo/people'
 /*
 const UsersDAO = require('./users-dao');
 
@@ -14,7 +13,6 @@ const page: React.FC = () => {
     console.log('Button clicked');
      
   };
-    updatePeople({});
   return (
     <div >
     <div className={styles.center}>
