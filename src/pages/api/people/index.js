@@ -1,4 +1,4 @@
-import { getPeople } from '@lib/mongo/people'
+import { getPeople } from '@lib/mongo/index'
 
 const handler = async (req, res) => {
     if(req.method === 'GET'){

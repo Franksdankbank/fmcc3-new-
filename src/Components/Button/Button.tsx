@@ -2,7 +2,7 @@ import { Rosario } from "@next/font/google";
 import styles from './Button.module.css';
 import Link from 'next/link';
 import React from 'react';
-
+import updatePeople from '@lib/mongo/people'
 type Props = {
   label: string;
   href: string;
